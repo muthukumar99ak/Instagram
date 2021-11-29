@@ -1,0 +1,102 @@
+.roundBadge{
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 1px;
+    display: inline-block;
+}
+
+.roundBadge.withBorder{
+    border: 2.5px solid #d54a99;
+}
+
+.roundBadge img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.postHeader{
+    border-bottom: 1px solid #efefef;
+}
+
+.headImgCont {
+    display: flex;
+    align-items: center;
+    max-width: calc( 100% - 48px );
+    width: calc( 100% - 48px );
+    padding: 10px 4px 10px 13px;
+}
+
+.postHeader a{
+    line-height: 21px;
+    font-size: 14px;
+    color: #262626 !important;
+    display: block;
+    text-decoration: none;
+    margin-left: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.postHeader a.actionIcon{
+    padding: 8px;
+}
+
+.postCard{
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 24px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+}
+
+.postImage {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    max-height: 735px;
+}
+
+.deskIonCont{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.deskIonCont a{
+    font-size: 24px;
+    line-height: 18px;
+    padding: 8px;
+    color: #262626 !important;
+}
+
+.deskLikeCont{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 4px;
+}
+
+.deskLikeCont a{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #262626 !important;
+}
+
+.descPara a{
+    color: #262626 !important;
+    text-decoration: none !important;
+}
+
+.descPara{
+    font-size: 14px;
+}
